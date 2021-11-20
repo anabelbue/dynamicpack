@@ -49,11 +49,10 @@ resampled_dat <- resample(dat, participant, c("stress", "anxiety"))
 
 head(dat) == head(resampled_dat)
 #>   participant happiness stress anxiety
-#> 1        TRUE      TRUE  FALSE   FALSE
+#> 1        TRUE      TRUE   TRUE   FALSE
 #> 2        TRUE      TRUE  FALSE   FALSE
 #> 3        TRUE      TRUE  FALSE   FALSE
-#> 4        TRUE      TRUE  FALSE    TRUE
+#> 4        TRUE      TRUE  FALSE   FALSE
 #> 5        TRUE      TRUE  FALSE   FALSE
-#> 6        TRUE      TRUE  FALSE   FALSE
-## basic example code
+#> 6        TRUE      TRUE   TRUE   FALSE
 ```

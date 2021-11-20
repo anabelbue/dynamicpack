@@ -47,5 +47,4 @@ resampled_dat <- resample(dat, participant, c("stress", "anxiety"))
 head(dat) == head(resampled_dat)
  
  
-## basic example code
 ```
