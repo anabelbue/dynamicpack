@@ -1,16 +1,20 @@
 Package: dynamicpack
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Uncovering dynamics in psychological states
+Version: 0.1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Anabel",
+           family = "Buechner",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "buechnea@hu-berlin.de",
+           comment = c(ORCID = "https://orcid.org/0000-0003-2134-6361"))
+Description: This package was built to facilitate the analysis of individual differences in the temporal sequence of psychological states. So far it consists only of the resample function (more to come!). This function destroys any signal that may be encoded in the temporal sequence of the observations and thus creates a reference frame for the empirical data.   Although specifically developed for time series data, the function can be applied to any hierarchical data where the aim is to destroy the signal that is encoded in the order of the observations. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr
