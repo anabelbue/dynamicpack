@@ -36,4 +36,3 @@ resample <- function(data, ID, variables){
   return(resampled_data)
 }
 
-?tibble
